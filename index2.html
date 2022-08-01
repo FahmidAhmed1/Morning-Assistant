@@ -6,18 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Morning Assistance</title>
   <link rel="stylesheet" href="index.css"> 
-  <link rel="stylesheet" href="index.css">  
-  <span onclick="openNav()">open</span>   
-</head> 
-
+  <link rel="stylesheet" href="index.css"> 
+</head>
 <body>    
   
-  <div id="mySidenav" class = "sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!-- dont understand--->
-    <a href="index2.html">Weather</a>  <!-- Href is a hyperlink--> 
-    <a href="index3.html">News</a> 
-  </div>
-
   <div class="homepage">  
     <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m8!1m3!1d46186.121388808024!2d-79.392817!3d43.655812!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x882b34af87aad533%3A0x703604edecc6a749!2sOff-White%2C%2083%20Yorkville%20Ave%2C%20Toronto%2C%20ON%20M5R%201C1!3m2!1d43.670992399999996!2d-79.39155579999999!4m5!1s0x882b34d68a18c4c7%3A0x4bc3e6c710a8a933!2sCN%20Tower%2C%20301%20Front%20St%20W%2C%20Toronto%2C%20ON%20M5V%202T6!3m2!1d43.6425657!2d-79.38705569999999!5e0!3m2!1sen!2sca!4v1658896553850!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -25,7 +17,7 @@
   </div>
   <div class="container" > 
     
-  </div>
+  </div> 
     
    <form action="/" method="POST"> 
     <label for="workaddress">Please Enter Your Work Address </label> 
@@ -38,15 +30,16 @@
     <button class="btnaddress">submit</button>
     </div>
 
-    
-
   <script src="index.js"></script> 
-  <!-- New code from here-->  
-  <!-- <div class="menu" >  add this--> 
- <!--- <button class="btnopen">open</button> 
-  <button onclick="openNav()">Open</button> --> 
-<div id = "main">  
-</div>
-</div>
+   <!--New code from here --> 
+   <div class="menu" > 
+    <uL> <!-- creating a list--> 
+      
+      <li style="--i:1;"> <a href="index.html">Home</a></li>  <!-- Href is a hyperlink--> 
+      <li style="--i:2;"> <a href="index3.html">News</a></li>
+    </uL>   
+
+   </div>
+
 </body>
 </html>
